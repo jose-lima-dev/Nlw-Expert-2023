@@ -4,22 +4,190 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>document</title>
+    <title>Quiz</title>
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
 
-<template class="quiz-item">
-    <h1>Teste seus conhecimentos</h1>
+<body class="quiz-item">
+    <h1 id="title">Teste seus conhecimentos</h1>
 
-    <div id="quiz"></div>/div>
+    <div id="quiz"></div>
     <div class="pergunta">
-        <h3>Pergunta 01</h3>
+        <h3>Qual é a maneira correta de declarar uma variável em JavaScript?</h3>
         <dl>
             <dt>
-                <input type="radio" name="item" value="0">
-                <span>Resposta A</span>
+                <input type="radio" name="item1" value="0">
+                <span>var x</span>
+            </dt>
+            <dt>
+                <input type="radio" name="item1" value="0">
+                <span>variable x</span>
+            </dt>
+            <dt>
+                <input type="radio" name="item1" value="0">
+                <span>v x</span>
             </dt>
         </dl>
     </div>
-</template>
+    <div class="pergunta">
+        <h3>Qual é o operador de comparação estrita em JavaScript?</h3>
+        <dl>
+            <dt resp>
+                <input type="radio" name="item2" value="0">
+                <span>==</span>
+            </dt>
+            <dt>
+                <input type="radio" name="item2" value="0">
+                <span>===</span>
+            </dt>
+            <dt>
+                <input type="radio" name="item2" value="0">
+                <span>!=</span>
+            </dt>
+        </dl>
+    </div>
+    <div class="pergunta">
+        <h3>Qual é o método utilizado para converter uma string em um número inteiro em JavaScript?</h3>
+        <dl>
+            <dt resp1>
+                <input type="radio" name="item3" value="0">
+                <span>parseInt()</span>
+            </dt>
+            <dt>
+                <input type="radio" name="item3" value="0">
+                <span>stringToInt()</span>
+            </dt>
+            <dt>
+                <input type="radio" name="item3" value="0">
+                <span>toInteger()</span>
+            </dt>
+        </dl>
+    </div>
+    <div class="pergunta">
+        <h3>Qual função é usada para exibir uma caixa de diálogo com uma mensagem em JavaScript?</h3>
+        <dl>
+            <dt>
+                <input type="radio" name="item4" value="0">
+                <span>prompt()</span>
+            </dt>
+            <dt>
+                <input type="radio" name="item4" value="0">
+                <span>alert()</span>
+            </dt>
+            <dt>
+                <input type="radio" name="item4" value="0">
+                <span>confirm()</span>
+            </dt>
+        </dl>
+    </div>
+    <div class="pergunta">
+        <h3>Qual método é usado para remover o último elemento de um array em JavaScript?</h3>
+        <dl>
+            <dt>
+                <input type="radio" name="item5" value="0">
+                <span>pop()</span>
+            </dt>
+            <dt>
+                <input type="radio" name="item5" value="0">
+                <span>shift()</span>
+            </dt>
+            <dt>
+                <input type="radio" name="item5" value="0">
+                <span>slice()</span>
+            </dt>
+        </dl>
+    </div>
+    <div class="pergunta">
+        <h3>Qual é a maneira correta de escrever um comentário de linha única em JavaScript?</h3>
+        <dl>
+            <dt>
+                <input type="radio" name="item6" value="0">
+                <span>// Este é um comentário</span>
+            </dt>
+            <dt>
+                <input type="radio" name="item6" value="0">
+                <span>' Este é um comentário</span>
+            </dt>
+            <dt>
+                <input type="radio" name="item6" value="0">
+                <span># Este é um comentário</span>
+            </dt>
+        </dl>
+    </div>
+    <div class="pergunta">
+        <h3>Qual é a saída do seguinte código: console.log(typeof 'Hello World')?</h3>
+        <dl>
+            <dt>
+                <input type="radio" name="item7" value="0">
+                <span>number</span>
+            </dt>
+            <dt>
+                <input type="radio" name="item7" value="0">
+                <span>string</span>
+            </dt>
+            <dt>
+                <input type="radio" name="item7" value="0">
+                <span>undefined</span>
+            </dt>
+        </dl>
+    </div>
+    <div class="pergunta">
+        <h3>"Qual é a função do operador '===' em JavaScript?</h3>
+        <dl>
+            <dt>
+                <input type="radio" name="item8" value="0">
+                <span>Comparação estrita</span>
+            </dt>
+            <dt>
+                <input type="radio" name="item8" value="0">
+                <span>Atribuição</span>
+            </dt>
+            <dt>
+                <input type="radio" name="item8" value="0">
+                <span>Comparação não estrita</span>
+            </dt>
+        </dl>
+    </div>
+    <div class="pergunta">
+        <h3>Qual método JavaScript é usado para remover os espaços em branco no início e no final de uma string?</h3>
+        <dl>
+            <dt>
+                <input type="radio" name="item9" value="0">
+                <span>trim()</span>
+            </dt>
+            <dt>
+                <input type="radio" name="item9" value="0">
+                <span>strip()</span>
+            </dt>
+            <dt>
+                <input type="radio" name="item9" value="0">
+                <span>clean()</span>
+            </dt>
+        </dl>
+    </div>
+    <div class="pergunta">
+        <h3>Qual é o resultado da expressão 5 + '3' em JavaScript?</h3>
+        <dl>
+            <dt>
+                <input type="radio" name="item10" value="0">
+                <span>53</span>
+            </dt>
+            <dt>
+                <input type="radio" name="item10" value="0">
+                <span>8</span>
+            </dt>
+            <dt>
+                <input type="radio" name="item10" value="0">
+                <span>Error</span>
+            </dt>
+        </dl>
+    </div>
+
+    <div id="pontuacao">
+        <h2>Pontuação</h2>
+        <p id="pontuacao-total"></p>
+    </div>
+    <script src="/js/form.js"></script>
+</body>
 
 </html>

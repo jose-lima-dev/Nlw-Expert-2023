@@ -1,0 +1,52 @@
+/* Estilo do elemento de pontuação */
+#pontuacao {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #98d9b6;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 100)
+}
+
+/* Estilo do texto da pontuação */
+#pontuacao h2 {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Estilo da pontuação total */
+#pontuacao p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Estilo do título principal */
+#title {
+    background-color: #3ec9a7;
+    margin-top: 20px;
+    padding: 10px;
+    border: 5px solid #2b879e;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+}
+
+/* Estilo das perguntas */
+.pergunta {
+    background-color: #3ec9a7;
+    margin-top: 20px;
+    padding: 10px;
+    border: 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 100)
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b1acac;
+}
